@@ -1,18 +1,38 @@
+"use client";
+
 import Image from "next/image";
+
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 import AboutImage from "@/public/about.jpg";
 
 export const About = () => {
+  const isDesktop = useMediaQuery("(min-width: 1000px)");
+
   return (
     <section
       id={`o-firmie`}
-      className={`w-full h-svh min-h-[540px] flex justify-center items-end`}
+      className={`${
+        isDesktop ? "h-svh items-end" : "mt-20"
+      } w-full min-h-[540px] flex justify-center`}
     >
-      <div className={`w-[72rem] h-[90%] px-5 flex gap-24`}>
-        <div className={`w-[45%] relative bg-black`}>
+      <div
+        className={`${
+          isDesktop ? "h-[90%]" : "flex-col-reverse"
+        } w-[72rem] px-5 flex gap-24`}
+      >
+        <div
+          className={`${
+            isDesktop ? "w-[45%]" : "w-full h-[80vw]"
+          } relative bg-black`}
+        >
           <Image src={AboutImage} alt="" fill objectFit="cover" quality={100} />
         </div>
-        <article className={`w-[55%] flex flex-col gap-5 justify-center`}>
+        <article
+          className={`${
+            isDesktop ? "w-[55%]" : "w-full"
+          } flex flex-col gap-10 justify-center `}
+        >
           <h1 className={`font-bold text-4xl`}>O firmie</h1>
           <p>
             Mam na imię Mariusz Szustakiewicz. Wszystko zaczęło się od

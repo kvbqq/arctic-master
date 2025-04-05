@@ -12,7 +12,7 @@ export const FaqSection = () => {
       <div
         className={`${
           isDesktop ? "w-[72rem] p-20" : "p-10"
-        } mx-5 my-20 flex items-center flex-col rounded-3xl border border-gray-100 shadow-lg bg-[#F7F7F7]`}
+        } mx-5 mb-20 flex items-center flex-col rounded-3xl border border-gray-100 shadow-lg bg-[#F7F7F7]`}
       >
         <h1
           className={`${

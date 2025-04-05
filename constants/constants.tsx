@@ -1,15 +1,15 @@
 export const navLinks = [
   {
     label: "O firmie",
-    href: "#o-firmie",
+    href: "./#o-firmie",
   },
   {
     label: "Oferta",
-    href: "#oferta",
+    href: "./#oferta",
   },
   {
     label: "Realizacje",
-    href: "#realizacje",
+    href: "./#realizacje",
   },
   {
     label: "Kontakt",
