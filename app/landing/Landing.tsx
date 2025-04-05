@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,7 +10,6 @@ import BgImage from "@/public/landing-bg.png";
 
 export const Landing = () => {
   const isDesktop = useMediaQuery("(min-width: 1000px)");
-
   return (
     <section
       className={`w-full h-svh min-h-[540px] relative flex ${

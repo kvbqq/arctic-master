@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useParams } from "next/navigation";
 import React, { useState, useEffect } from "react";
 
 import { useMediaQuery } from "@/hooks/useMediaQuery";
@@ -25,11 +24,7 @@ export const RealizationDetails: React.FC<RealizationDetailsProps> = ({
   mainUrl,
   gallery,
 }) => {
-  const [images, setImages] = useState<GalleryImageType[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
   const isDesktop = useMediaQuery("(min-width: 1000px)");
-  const { imageId } = useParams();
   const [showGallery, setShowGallery] = useState(false);
 
   useEffect(() => {
