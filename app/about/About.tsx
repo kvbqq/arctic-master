@@ -35,29 +35,21 @@ export const About = () => {
         >
           <h1 className={`font-bold text-4xl`}>O firmie</h1>
           <p>
-            Mam na imię Mariusz Szustakiewicz. Wszystko zaczęło się od
-            młodzieńczej pasji do motoryzacji – już jako nastolatek spędzałem
-            godziny w garażu, naprawiając samochody, szukając rozwiązań i ucząc
-            się, jak działa technika. To zamiłowanie doprowadziło mnie do
-            założenia własnego warsztatu samochodowego, który przez lata zdobył
-            zaufanie wielu klientów w Słupcy i okolicach.
+            Od młodzieńczych lat pasjonuję się branżą techniczną. Zaczynałem od
+            naprawy samochodów w garażu, a z czasem założyłem własny warsztat,
+            zdobywając zaufanie wielu klientów w Słupcy i okolicach.
             <br />
             <br />
-            Z biegiem czasu i rosnącym doświadczeniem postanowiłem pójść o krok
-            dalej. Dziś moja firma to nie tylko naprawa aut, ale przede
-            wszystkim nowoczesne systemy dla domu i firmy. Specjalizuję się w
-            montażu klimatyzacji, pomp ciepła oraz paneli fotowoltaicznych.
-            Zawsze zależy mi na tym, by oferować rozwiązania nie tylko
-            skuteczne, ale też energooszczędne i dopasowane do realnych potrzeb
-            klientów.
+            Z biegiem lat pasja przerodziła się w pracę i sposób na życie. Dziś
+            oferuję nowoczesne, energooszczędne rozwiązania dla domów i firm.
+            Specjalizuję się w montażu klimatyzacji oraz pomp ciepła. Stawiam na
+            indywidualne podejście i technologie dopasowane do potrzeb każdego
+            klienta.
             <br />
             <br />
-            Niezależnie od tego, czy chodzi o sprawny montaż klimatyzacji,
-            wydajną pompę ciepła, instalację paneli słonecznych czy odświeżenie
-            klimatyzacji w samochodzie – można na mnie liczyć. Łączę wiedzę
-            techniczną z rzetelnym podejściem do pracy i prawdziwą pasją do
-            tego, co robię. Każde zlecenie traktuję indywidualnie, bo wiem, że
-            zaufanie buduje się poprzez jakość i uczciwość.
+            Niezależnie od rodzaju zlecenia, czy to montaż, serwis, czy
+            modernizacja, każde realizuję z pełnym zaangażowaniem, łącząc wiedzę
+            techniczną z doświadczeniem i rzetelnym podejściem do klienta.
           </p>
         </article>
       </div>

@@ -54,7 +54,7 @@ export const Landing = () => {
               Oferta
             </Link>
             <Link
-              href="tel:+48664624810"
+              href="tel:+48501437262"
               className={`${
                 isDesktop ? "px-12" : "px-8"
               } py-2 flex items-center gap-3 border-2 border-[#0A3441] text-[#0A3441] rounded-full hover:bg-[#0A3441] hover:text-[#F7F7F7] transition-colors duration-500`}

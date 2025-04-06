@@ -30,7 +30,7 @@ const NavMenuDesktop = () => {
         ))}
       </ul>
       <Link
-        href={"tel:+48664624810"}
+        href={"tel:+48501437262"}
         className={`px-10 py-2 flex items-center gap-3 border-2 border-[#0A3441] rounded-full hover:bg-[#0A3441] hover:text-[#F7F7F7] ease-in-out duration-500`}
       >
         <FaPhoneAlt />
@@ -55,7 +55,7 @@ const NavMenuMobile: React.FC<NavMenuMobileProps> = ({ toggleNav }) => {
         ))}
       </ul>
       <Link
-        href={"tel:+48664624810"}
+        href={"tel:+48501437262"}
         className={`px-10 py-2 flex items-center gap-3 border-1 border-[#F7F7F7] rounded-full`}
       >
         <FaPhoneAlt />
