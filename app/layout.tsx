@@ -8,7 +8,7 @@ import { ContactFooter } from "./contactFooter/ContactFooter";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Arcitc Master",
+  title: "Arctic Master",
   description: "Arctic Master - Montaż klimatyzacji i pomp ciepła",
   icons: {
     icon: ["/favicon.ico?v=4"],
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body className={montserrat.className}>
         <Nav />
         {children}
